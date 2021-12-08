@@ -1,0 +1,12 @@
+allow:
+  - env
+  - read
+  - write
+  - net
+
+envFile:
+  - .env
+
+scripts:
+  start:
+    cmd: main.ts
